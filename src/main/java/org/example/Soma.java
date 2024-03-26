@@ -1,7 +1,8 @@
 package org.example;
 
 public class Soma {
-    public static double somar (double num1, double num2) {
-        return num1+num2;
+    // Criei o método static p/ não precisar instanciar um objeto
+    public static double somar(double num1, double num2) {
+        return num1 + num2;
     }
 }
